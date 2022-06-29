@@ -4,9 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
-    "dev":"nodemon main.js"
-    
+    "postinstall": "npm run build",
+     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
